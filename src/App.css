@@ -12,11 +12,11 @@ footer nav ul {
   justify-content: flex-start;
 }
 footer nav ul li {
-  font-size: 18px;
+  font-size: calc(.5vw + 16px);
   padding-right: 25px;
 }
 header nav ul li {
-  font-size: 22px;
+  font-size: calc(.5vw + 16px);
   padding-right: 30px;
   text-transform: uppercase;
 }
@@ -27,7 +27,7 @@ main {
   justify-content: center;
   min-height: 80vh;
 }
-main div {
+.home div {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,16 +35,19 @@ main div {
   width: 37%;
   text-transform: uppercase;
 }
-main h1 {
+.home h1 {
   width: 100%;
   font-size: 12vw;
   margin: 0;
   line-height: 1;
   text-align: center;
 }
-main h3 {
+.home h3 {
   width: 100%;
   font-size: 6vw;
   margin: 0;
   text-align: center;
+}
+.homeLink {
+  align-self: flex-start;
 }
