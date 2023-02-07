@@ -16,7 +16,7 @@ function App() {
 					<li><Link to="about">About</Link></li>
 					<li><Link to="listen">Listen</Link></li>
 					<li><Link to="albums">Albums</Link></li>
-					<li><Link to="contact">Contact</Link></li>
+					{/* <li><Link to="contact">Contact</Link></li> */}
 				</ul>
 			</nav>
 		</header>

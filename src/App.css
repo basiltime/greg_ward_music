@@ -1,3 +1,10 @@
+body {
+  color: white;
+  background-color: black;
+}
+p {
+  font-size: 20px;
+}
 header {
   margin: 70px 50px 0px 0px;
 }
@@ -27,13 +34,40 @@ main {
   justify-content: center;
   min-height: 80vh;
 }
-.home div {
+.home > div {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 37%;
+  max-width: 37%;
   text-transform: uppercase;
+}
+.about, .listen, .albums {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.about > div, .listen > div, .albums > div {
+  width: 100%;
+}
+.track, .album {
+  margin-bottom: .5rem;
+}
+.album {
+  width: calc(50% - 1rem);
+  float: left;
+  padding: 0rem .5rem .5rem .5rem;
+}
+.about p {
+  width: 100%;
+  text-align: left;
+}
+main h1 {
+  text-align: center
 }
 .home h1 {
   width: 100%;
@@ -45,9 +79,36 @@ main {
 .home h3 {
   width: 100%;
   font-size: 6vw;
+  font-weight: 300;
   margin: 0;
   text-align: center;
 }
 .homeLink {
   align-self: flex-start;
+}
+a, a:hover, a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width: 767px) {
+  header {
+    margin: 30px;
+  }
+  header nav ul {
+    padding: 0;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  header nav ul li {
+    padding: .5rem 1rem;
+  }
+  .about > div {
+    max-width: 90%;
+  }
+  .album {
+    width: 100%;
+    padding: 0rem 0rem .5rem 0rem;
+  }
 }
