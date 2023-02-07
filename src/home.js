@@ -4,7 +4,7 @@ export default function Home() {
             <div>
                 <h1>Greg Ward</h1>
                 <div className="animationWrap">
-                <h3 className="animatedText"></h3>
+                <div className="animatedText"></div>
                 </div>
             </div>
         </main>
