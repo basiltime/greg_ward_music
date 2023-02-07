@@ -22,6 +22,11 @@ footer nav ul li {
   font-size: calc(.5vw + 16px);
   padding-right: 25px;
 }
+footer svg {
+  padding-right: .25rem;
+  width: auto;
+  height: 1.25rem;
+}
 header nav ul li {
   font-size: calc(.5vw + 16px);
   padding-right: 30px;
@@ -41,6 +46,9 @@ main {
   justify-content: center;
   max-width: 37%;
   text-transform: uppercase;
+}
+.home .animationWrap {
+  width: 100%;
 }
 .about, .listen, .albums {
   display: flex;
@@ -111,4 +119,46 @@ a, a:hover, a:visited {
     width: 100%;
     padding: 0rem 0rem .5rem 0rem;
   }
+}
+.animatedText {
+  position: relative;
+  color: rgb(18, 227, 255);
+}
+.animatedText:before {
+  content: 'Producer';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  opacity: 1;
+  animation: fadeOutIn 5s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+}
+.animatedText:after {
+  content: 'Musician';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  opacity: 0;
+  animation: fadeInOut 5s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+}
+@keyframes fadeOutIn {
+  0% { opacity: 1; }
+  25% { opacity: 1; }
+  50% { opacity: 0; }
+  75% { opacity: 0}
+  100% { opacity: 0; }
+}
+@keyframes fadeInOut {
+  0% { opacity: 0; }
+  25% { opacity: 0; }
+  50% { opacity: 0; }
+  75% { opacity: 1; }
+  100% { opacity: 1; }
 }

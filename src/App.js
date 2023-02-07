@@ -6,6 +6,8 @@ import Listen from './listen.js';
 import Albums from './albums.js';
 import Contact from './contact.js';
 import { Routes, Route } from "react-router-dom"
+import { FaSpotify } from "react-icons/fa";
+import { FaApple } from "react-icons/fa"
 function App() {
   return (
     <div className="App">
@@ -31,8 +33,8 @@ function App() {
 		<footer>
 			<nav>
 				<ul>
-					<li>Spotify</li>
-					<li>Apple Music</li>
+					<li><a href="https://open.spotify.com/artist/226OGrNi54gah4MLcfrej8?si=_zuc1XuRRgm2nt3iXyLAyQ"><FaSpotify></FaSpotify>Spotify</a></li>
+					<li><a href=""><FaApple></FaApple>Apple Music</a></li>
 				</ul>
 			</nav>
 		</footer>
