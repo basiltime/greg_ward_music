@@ -7,7 +7,7 @@ import Albums from './albums.js';
 import Contact from './contact.js';
 import { Routes, Route } from "react-router-dom"
 import { FaSpotify } from "react-icons/fa";
-// import { FaApple } from "react-icons/fa"
+import { FaApple } from "react-icons/fa"
 function App() {
   return (
     <div className="App">
