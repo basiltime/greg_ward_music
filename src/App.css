@@ -79,14 +79,14 @@ main h1 {
 }
 .home h1 {
   width: 100%;
-  font-size: 12vw;
+  font-size: 10vw;
   margin: 0;
   line-height: 1;
   text-align: center;
 }
 .home .animatedText {
   width: 100%;
-  font-size: 6vw;
+  font-size: 5vw;
   font-weight: 300;
   margin: 0;
   text-align: center;
@@ -132,7 +132,7 @@ a, a:hover, a:visited {
   top: 0;
   bottom: 0;
   opacity: 1;
-  animation: fadeOutIn 5s;
+  animation: fadeOutIn 8s;
   animation-direction: alternate-reverse;
   animation-iteration-count: infinite;
 }
@@ -144,7 +144,7 @@ a, a:hover, a:visited {
   top: 0;
   bottom: 0;
   opacity: 0;
-  animation: fadeInOut 5s;
+  animation: fadeInOut 8s;
   animation-direction: alternate-reverse;
   animation-iteration-count: infinite;
 }

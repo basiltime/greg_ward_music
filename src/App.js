@@ -33,8 +33,8 @@ function App() {
 		<footer>
 			<nav>
 				<ul>
-					<li><a href="https://open.spotify.com/artist/226OGrNi54gah4MLcfrej8?si=_zuc1XuRRgm2nt3iXyLAyQ"><FaSpotify></FaSpotify>Spotify</a></li>
-					<li><a href="/"><FaApple></FaApple>Apple Music</a></li>
+					<li><a href="https://open.spotify.com/artist/226OGrNi54gah4MLcfrej8?si=_zuc1XuRRgm2nt3iXyLAyQ"><FaSpotify></FaSpotify>Find Greg on Spotify</a></li>
+					{/* <li><a href="/"><FaApple></FaApple>Apple Music</a></li> */}
 				</ul>
 			</nav>
 		</footer>
